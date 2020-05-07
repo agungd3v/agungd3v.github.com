@@ -40,10 +40,129 @@ i {
     margin-top: 10px;
 }
 
+.group-info span a {
+    text-decoration: none;
+    color: black;
+}
+
+.group-info span a:hover {
+    color: var(--primary);
+}
+
 .txt-info {
     font-size: 12px;
 }
 
 .card-title {
     text-decoration: underline;
+}
+
+.box-education,
+.box-skill {
+    position: relative;
+    border-top: 1px solid var(--primary);
+}
+
+.box-education::before {
+    content: 'Education';
+    position: absolute;
+    top: -15px;
+    padding: 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.box-skill::before {
+    content: 'Skills';
+    position: absolute;
+    top: -15px;
+    padding: 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.box-lst {
+    list-style: circle;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box-lst li {
+    margin-top: 10px;
+    color: var(--primary);
+    font-size: 12px;
+}
+
+.box-lst li span {
+    color: black;
+}
+
+.box-lst li span a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-lst li span a:hover {
+    color: var(--primary);
+}
+
+.skill-lst {
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.progress {
+    background-color: transparent !important;
+    overflow: visible !important;
+}
+
+.progress-bar.html,
+.progress-bar.css,
+.progress-bar.js,
+.progress-bar.ms-office {
+    position: relative !important;
+    overflow: visible !important;
+}
+
+.progress-bar.html {
+    background-color: var(--danger);
+}
+
+.progress-bar.css {
+    background-color: var(--primary);
+}
+
+.progress-bar.js {
+    background-color: var(--warning);
+}
+
+.progress-bar.ms-office {
+    background-color: blueviolet;
+}
+
+.progress-bar.html i {
+    position: absolute;
+    right: -30px;
+    color: var(--danger);
+}
+
+.progress-bar.css i {
+    position: absolute;
+    right: -30px;
+    color: var(--primary);
+}
+
+.progress-bar.js i {
+    position: absolute;
+    right: -30px;
+    color: var(--warning);
+}
+
+.progress-bar.ms-office i {
+    position: absolute;
+    right: -30px;
+    color: blueviolet;
 }
