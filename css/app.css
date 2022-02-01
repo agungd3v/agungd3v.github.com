@@ -13,6 +13,10 @@ i {
     color: var(--primary);
 }
 
+.text-sm {
+  font-size: 12px;
+}
+
 .container-fluid {
     margin-top: 10px;
 }
@@ -38,6 +42,7 @@ i {
 
 .group-info {
     margin-top: 10px;
+    display: flex;
 }
 
 .group-info span a {
@@ -122,6 +127,7 @@ i {
 .progress-bar.html,
 .progress-bar.css,
 .progress-bar.js,
+.progress-bar.php,
 .progress-bar.ms-office {
     position: relative !important;
     overflow: visible !important;
@@ -137,6 +143,10 @@ i {
 
 .progress-bar.js {
     background-color: var(--warning);
+}
+
+.progress-bar.php {
+    background-color: var(--primary);
 }
 
 .progress-bar.ms-office {
@@ -159,6 +169,11 @@ i {
     position: absolute;
     right: -30px;
     color: var(--warning);
+}
+.progress-bar.php i {
+    position: absolute;
+    right: -30px;
+    color: var(--primary);
 }
 
 .progress-bar.ms-office i {

@@ -1,0 +1,76 @@
+{
+  "pengalaman": {
+    "profesional": [
+      {
+        "title": "Fullstack Developer",
+        "company": "PT. Edrus Strategi Digital",
+        "description": "Bertanggung jawab mengembangkan produk digital yang telah ada sebelumnya dan membuat produk digital baru jika ada permintaan dari user.",
+        "date": "1 year"
+      },
+      {
+        "title": "Fullstack Developer",
+        "company": "PT. ACL",
+        "description": "Bertanggung jawab mengembangkan produk digital yang telah ada sebelumnya dan membuat produk digital baru jika ada permintaan dari user.",
+        "date": "Sekarang"
+      }
+    ],
+    "freelancer": [
+      {
+        "title": "Freelance Aplikasi Tracking Barang",
+        "company": "PT. Duma Nusatama",
+        "description": "Membuat sistem tracking barang menggunakan barcode pada barang yang akan distribusikan pada PT. Duma Nusatama.",
+        "date": "3 month"
+      },
+      {
+        "title": "Freelance Aplikasi Kasir",
+        "company": "Coffee Shop (Liffecoffee Bekasi)",
+        "description": "Membuat sistem kasir menggunakan scan QR Code saat pemesanannya pada coffe shop.",
+        "date": "1 month"
+      },
+      {
+        "title": "Freelance Aplikasi Company Profile",
+        "company": "PT. STARS YUDHATAMA",
+        "description": "Membuat website company profile untuk PT. STARS YUDHATAMA.",
+        "date": "1 month"
+      },
+      {
+        "title": "Freelance Aplikasi Company Profile",
+        "company": "PT. Gading Persada Mandiri",
+        "description": "Membuat website company profile untuk PT. Gading Persada Mandiri.",
+        "date": "1 month"
+      },
+      {
+        "title": "Freelance Aplikasi Company Profile",
+        "company": "PT. Catur Pariwara Utama",
+        "description": "Membuat website company profile untuk PT. Catur Pariwara Utama.",
+        "date": "1 month"
+      },
+      {
+        "title": "Freelance Aplikasi Company Profile",
+        "company": "PT. San Pradana Teknik",
+        "description": "Membuat website company profile untuk PT. San Pradana Teknik.",
+        "date": "1 month"
+      },
+      {
+        "title": "Freelance Aplikasi Company Profile",
+        "company": "PT. Dinamika Network Consultant",
+        "description": "Membuat website company profile untuk PT. Dinamika Network Consultant.",
+        "date": "1 month"
+      },
+      {
+        "title": "Freelance Fitur Pembayaran",
+        "company": "Hebat Consulting",
+        "description": "Menambahkan fitur pembayaran pada aplikasi yang sedang di buat oleh Hebat Consulting.",
+        "date": "1 month"
+      }
+    ],
+    "event": [
+      {
+        "title": "Re-cloud Challanges 2021",
+        "company": "Alibabacloud",
+        "description": "Membuat sebuah aplikasi dengan tema Enabling Happiness and Productivity at Home #StayAtHome dengan kategori-kategori yang di sedikan.",
+        "date": "2 month"
+      }
+    ]
+  }
+}
