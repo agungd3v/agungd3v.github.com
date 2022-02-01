@@ -122,6 +122,9 @@ i {
 .progress {
     background-color: transparent !important;
     overflow: visible !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .progress-bar.html,
@@ -151,33 +154,4 @@ i {
 
 .progress-bar.ms-office {
     background-color: blueviolet;
-}
-
-.progress-bar.html i {
-    position: absolute;
-    right: -30px;
-    color: var(--danger);
-}
-
-.progress-bar.css i {
-    position: absolute;
-    right: -30px;
-    color: var(--primary);
-}
-
-.progress-bar.js i {
-    position: absolute;
-    right: -30px;
-    color: var(--warning);
-}
-.progress-bar.php i {
-    position: absolute;
-    right: -30px;
-    color: var(--primary);
-}
-
-.progress-bar.ms-office i {
-    position: absolute;
-    right: -30px;
-    color: blueviolet;
 }
